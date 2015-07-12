@@ -1,0 +1,8 @@
+{
+	"name" : "ylabs-functions-plugin",
+	"version" : "1.0.0",
+	"javaClass": "ylabs.orientdb.plugin.OYlabsFunctionsPlugin",
+	"parameters" : {},
+	"description" : "YLabs Functions",
+	"copyrights" : "No copyrights"
+}
