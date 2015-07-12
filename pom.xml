@@ -5,7 +5,7 @@
 
     <groupId>ylabs</groupId>
     <artifactId>orientdb-functions-plugin</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>orientdb-functions-plugin</name>
@@ -61,4 +61,16 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>https://nexus.prod.corp/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>https://nexus.prod.corp/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>

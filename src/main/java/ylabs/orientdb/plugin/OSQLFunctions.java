@@ -1,12 +1,19 @@
 package ylabs.orientdb.plugin;
 
+import com.orientechnologies.common.log.OLogManager;
 import com.orientechnologies.orient.core.command.OCommandContext;
 import com.orientechnologies.orient.core.db.record.OIdentifiable;
+import com.orientechnologies.orient.core.sql.OSQLEngine;
 import com.orientechnologies.orient.core.sql.functions.OSQLFunctionAbstract;
 
 import java.util.Date;
 
 public class OSQLFunctions {
+
+    public static void registerPlugins(Object iRequestor) {
+        OSQLEngine.getInstance().registerFunction("dateTimePlusSeconds", OSQLFunctions.dateTimeAddSecondsFunction());
+        OLogManager.instance().info(iRequestor, "dateTimePlusSeconds function registered");
+    }
 
     public static OSQLFunctionAbstract dateTimeAddSecondsFunction() {
       return new OSQLFunctionAbstract("dateTimePlusSeconds", 2, 2) {
