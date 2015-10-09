@@ -1,7 +1,7 @@
 {
-	"name" : "ylabs-functions-plugin",
+	"name" : "springnz-functions-plugin",
 	"version" : "1.0.0",
-	"javaClass": "ylabs.orientdb.plugin.OYlabsFunctionsPlugin",
+	"javaClass": "springnz.orientdb.plugin.OYlabsFunctionsPlugin",
 	"parameters" : {},
 	"description" : "YLabs Functions",
 	"copyrights" : "No copyrights"

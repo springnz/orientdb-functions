@@ -1,9 +1,9 @@
-package ylabs.orientdb.plugin;
+package springnz.orientdb.plugin;
 
 import com.orientechnologies.common.log.OLogManager;
 import com.orientechnologies.orient.core.sql.OSQLEngine;
-import ylabs.orientdb.plugin.functions.DateTimePlusSecondsFunction;
-import ylabs.orientdb.plugin.functions.PowFunction;
+import springnz.orientdb.plugin.functions.DateTimePlusSecondsFunction;
+import springnz.orientdb.plugin.functions.PowFunction;
 
 public class OSQLFunctions {
 

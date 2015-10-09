@@ -24,6 +24,6 @@ On server startup you should see the following
 Installation on embedded instance
 =================================
 
-1. Add dependency to project: `"ylabs" % "orientdb-functions-plugin" % "1.0.1",`
+1. Add dependency to project: `"springnz" % "orientdb-functions-plugin" % "1.0.1",`
 2. Register functions with embedded server `OSQLFunctions.registerPlugins(this)`
 3. Use it. E.g., `select dateTimePlusSeconds(date("2015-07-10 12:00:00"), 30)`

@@ -1,4 +1,4 @@
-package ylabs.orientdb.plugin.functions;
+package springnz.orientdb.plugin.functions;
 
 import com.orientechnologies.common.log.OLogManager;
 import com.orientechnologies.orient.core.command.OCommandContext;

@@ -1,4 +1,4 @@
-package ylabs.orientdb.plugin;
+package springnz.orientdb.plugin;
 
 import com.orientechnologies.orient.server.OServer;
 import com.orientechnologies.orient.server.config.OServerParameterConfiguration;
@@ -10,7 +10,7 @@ public class OYlabsFunctionsPlugin extends OServerPluginAbstract {
     }
 
     public String getName() {
-        return "ylabs-functions-plugin";
+        return "springnz-functions-plugin";
     }
 
     @Override
